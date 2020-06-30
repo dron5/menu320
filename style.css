@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex_b {
+    display: flex;
+    border: 1px solid red;
+    width: 1200px;
+    height: 800px;
+}
+.relative_b {
+    position: relative;
+    border: 1px solid blue;
+    width: 450px;
+    height: 750px;
+}
+.relative_b2 {
+    position: relative;
+    border: 1px solid blue;
+    width: 100%;
+    height: 500px;
+}
+.absolute_b {
+    position: absolute;
+    border: 1px solid green;
+    width: 400px;
+    height: 600px;
+}
+.absolute_b2 {
+    position: absolute;
+    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+    bottom: 5px;
+    right: 10px;
+}
+.sticky_b {
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    border: 2px solid red;
+    width: 100%;
+    height: 50px;
+}
+.fixed_b {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: 30px;
+    background-color: lightgreen;
+}
